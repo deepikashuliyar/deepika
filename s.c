@@ -3,8 +3,6 @@
 
 int main() {
     double num1, num2, temp;
-
-    // Input two numbers
     printf("Enter two numbers: ");
     if (scanf("%lf %lf", &num1, &num2) != 2) {
         printf("Invalid input. Please enter numeric values only.\n");

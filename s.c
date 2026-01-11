@@ -11,8 +11,6 @@ int main() {
 
     printf("\nBefore swapping:\n");
     printf("num1 = %.2lf, num2 = %.2lf\n", num1, num2);
-
-    // Swapping using a temporary variable
     temp = num1;
     num1 = num2;
     num2 = temp;

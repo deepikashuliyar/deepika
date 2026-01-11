@@ -21,8 +21,6 @@ int main() {
 
     printf("\nAfter swapping (using temp variable):\n");
     printf("num1 = %.2lf, num2 = %.2lf\n", num1, num2);
-
-    // Swapping back without using a temporary variable
     num1 = num1 + num2;
     num2 = num1 - num2;
     num1 = num1 - num2;
